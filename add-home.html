@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en" xml:lang="en">
+  <head>
+    <title>Smart Homes - Welcome to your space</title>
+    <meta content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./styles/index.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/dashboard.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/slider.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="index.html"> <h1 class="logo-label">Smart Homes</h1> </a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <a href="login.html" class="login-button logout-button">
+        <p class="custom-button logout-button">Logout</p>
+      </a>
+    </header>
+
+    <!-- Main content that should be edited -->
+    <main>
+      <div class="container">
+        <div class="login-container add-home-container">
+          <!-- Remove section -->
+
+          <div class="home-list-container">
+            <p class="banner-text">Your Homes</p>
+
+            <div class="card-container">
+              <!-- device card -->
+              <div class="device-card home-height">
+                <div class="home-details">
+                  <div class="font-bold">Home Name #1</div>
+                  <div class="delete-icon">
+                    <img
+                      src="assets/delete.jpeg"
+                      class="delete-icon"
+                      alt="device"
+                    />
+                  </div>
+                </div>
+                <img src="assets/home.png" class="home-image" alt="home" />
+              </div>
+              <!-- device card ends -->
+            </div>
+          </div>
+
+          <p class="banner-text">Add New Home</p>
+
+          <!-- New Input -->
+          <div class="input-container complete-center margin-top-3">
+            <div class="input-box-label">
+              <label class="input-box-label" for="email"> Home Name </label>
+            </div>
+            <input name="email" class="input-box" />
+          </div>
+
+          <!-- New Input -->
+          <div class="input-container complete-center margin-top-3">
+            <div class="input-box-label">
+              <label class="input-box-label" for="email"> Home Address </label>
+            </div>
+            <input name="email" class="input-box" />
+          </div>
+
+          <!-- New Input -->
+          <div class="input-container complete-center margin-top-3">
+            <div class="input-box-label">
+              <label class="input-box-label" for="email">Smart Rent ID </label>
+            </div>
+            <input name="email" class="input-box" />
+          </div>
+
+          <!-- New Input -->
+          <div class="input-container complete-center margin-top-3">
+            <div class="input-box-label">
+              <label class="input-box-label" for="email">
+                Smart Rent Password
+              </label>
+            </div>
+            <input name="email" class="input-box" />
+          </div>
+
+          <div class="input-container complete-center margin-top-3">
+            <div class="default-button complete-center" id="login-submit">
+              Add New Home
+            </div>
+          </div>
+
+          <!-- margin bottom -->
+          <div class="bottom-spacing"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Smart Homes</p>
+    </footer>
+  </body>
+</html>
