@@ -114,7 +114,12 @@
 }
 
 .home-height {
-  height: 250px;
+  height: auto;
+}
+
+.team-learnings {
+  font-size: small;
+  text-align: justify;
 }
 
 @media only screen and (max-width: 600px) {
